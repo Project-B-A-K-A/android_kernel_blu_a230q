@@ -1,0 +1,36 @@
+#
+# Touchscreen driver configuration
+#
+
+config TOUCHSCREEN_SYNAPTICS_DSX_I2C
+	bool "SY4100 for Mediatek package"
+	default n
+	help
+	Say Y here if you have SY4100 touch panel TOUCHSCREEN_SYNAPTICS_DSX_I2C.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TOUCHSCREEN_SYNAPTICS_RMI_DEV
+	bool "SY4100 for Mediatek package"
+	default n
+	help
+	Say Y here if you have SY4100 touch panel TOUCHSCREEN_SYNAPTICS_RMI_DEV.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TOUCHSCREEN_SYNAPTICS_FW_UPDATE
+	bool "SY4100 for Mediatek package"
+	default n
+	help
+	Say Y here if you have SY4100 touch panel TOUCHSCREEN_SYNAPTICS_FW_UPDATE.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.

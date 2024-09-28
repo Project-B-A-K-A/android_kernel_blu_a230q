@@ -1,0 +1,5 @@
+config MTK_SECURITY_SW_SUPPORT
+	bool "show efuse status"
+	default n
+	---help---
+	  show efuse status

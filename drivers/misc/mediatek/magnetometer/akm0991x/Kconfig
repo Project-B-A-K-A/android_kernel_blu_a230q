@@ -1,0 +1,9 @@
+
+config MTK_AKM0991X
+	bool "AKM0991X for MediaTek package"
+	default n
+	help
+	  It support different magnetometer sensor.
+          If this option is set,
+	  it will support
+          AKMD0991X magnetometer.

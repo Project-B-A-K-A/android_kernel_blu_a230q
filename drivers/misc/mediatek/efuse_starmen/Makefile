@@ -1,0 +1,1 @@
+obj-$(CONFIG_MTK_SECURITY_SW_SUPPORT) := efuse_starmen.o
